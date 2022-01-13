@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    max-height: 100vh;
+}
+
+.main {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+}
+
+.header {
+    height: 50px;
+    background-color: #cce;
+    text-align: center;
+    font-weight: bold;
+}
+
+.footer {
+    height: 100px;
+    background-color: #ecc;
+    text-align: center;
+    font-weight: bold;
+}
+
+.users {
+    width: 200px;
+    background-color: #cec;
+    overflow: auto;
+}
+
+.chat {
+    flex: 1;
+    background-color: #dfd;
+    overflow: auto;
+}
+
+.message {
+    margin-bottom: 10px;
+}
